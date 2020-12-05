@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="main.js"></script>
+        
+    </head>
+    <body>
+        <div class = MainContainer>
+            <br>
+            <p class = description><u><i>Use this calculator to perform simple operations.</i></u></p>
+            <br>
+        <wrapper class = wrapper>
+        <header>
+            Calculator
+        </header>
+        <br>
+        <div class = CalcContainer id = CalcContainer>
+            <form class = form name = form> 
+                <input type = text step = any class = "textview" name = "textview" id = textview>
+            </form>
+            <table>
+                <tr>
+                    <td>
+                        <input class = "button" type = "button" value = "C" onclick="Clear()">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "<" onclick="Back()">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "/" onclick="setOperator('/')">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "&times" onclick="setOperator('x')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "button" type = "button" value = "7" onclick="insertDigit(7)"> 
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "8" onclick="insertDigit(8)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "9" onclick="insertDigit(9)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "-" onclick="setOperator('-')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "button" type = "button" value = "4" onclick="insertDigit(4)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "5" onclick="insertDigit(5)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "6" onclick="insertDigit(6)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "+" onclick="setOperator('+')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class = "button" type = "button" value = "1" onclick="insertDigit(1)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "2" onclick="insertDigit(2)">
+                    </td>
+                    <td>
+                        <input class = "button" type = "button" value = "3" onclick="insertDigit(3)">
+                    </td>
+                    <td rowspan="5">
+                        <input class = "button" name = "equal" type = "button" value = "=" onclick="Equal()">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <input class = "button" name = "cero" type = "button" value = "0" onclick="insertDigit(0)">
+                    </td>
+                    <td>
+                    <input class = "button" type = "button" value = "." onclick="insertDot()">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </wrapper>
+    
+    </body>
+    <br>
+    <footer>
+        <p name = Creator>Created by Gerardo Huichapa</p>
+        <p name = Odin>The Odin Project</p>
+    </footer>
+</div>
+</html>

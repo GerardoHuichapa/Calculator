@@ -1,0 +1,122 @@
+*
+{
+ margin: 0;
+ padding: 0;
+}
+
+.description
+{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+body
+{  
+    background-color: rgba(0, 0, 0, 0.57);
+}
+
+.MainContainer
+{
+    background-color: rgba(255, 53, 53, 0.57);
+    border-radius: 50px;
+    padding-bottom: 50px;
+}
+
+.wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+    /* border: solid;
+    border-color: aliceblue; */
+}
+
+.CalcContainer
+{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    border-color: aliceblue;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+header 
+{
+    display: flex;
+    /* border: solid;
+    border-color: rgb(98, 145, 185); */
+    font-size: 3rem;
+    text-align: center;
+}
+
+div
+{
+    align-items: center;
+}
+
+footer
+{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.button
+{
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    margin: 2px;
+}
+
+.textview
+{
+    width: 217px;
+    height: 50px;
+    margin: 5px;
+    margin-top: 10px;
+    font-size: 2rem;
+    padding: 5;
+    cursor: pointer;
+    text-align: right;
+}
+
+.equal 
+{
+    
+}
+
+[name = Creator]
+{
+    font-size: 1.2rem;
+    color: black;
+}
+
+[name = Odin]
+{
+    color: rgb(82, 76, 76);
+    margin-top: 10px;
+}
+
+[name = cero]
+{
+    width: 107px;
+    height: 50px;
+    margin: 2px;
+}
+
+[name = equal]
+{
+    width: 50px;
+    height: 107px;
+    margin: 2px;
+}
+
+
